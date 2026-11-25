@@ -4,8 +4,8 @@ export default function Tarefas(){
             <h1 className="text-[20px] font-bold">📝Minhas Tarefas</h1>
             <p className="ms-2">0 tarefas pendentes</p>
                 <div>
-        <input type="text" placeholder="O que deseja fazer" className="ms-2 mt-4" />
-        <button className="bg-blue-700  text-white ms-2 h-7 w-20 rounded-md cursor-pointer">Adicionar</button>
+        <input type="text" placeholder="O que deseja fazer" className="ms-2 mt-4 border border-black rounded-md text-[15px] w-55" />
+        <button className="bg-blue-700  text-white ms-2  h-6 w-20 rounded-md cursor-pointer ">Adicionar</button>
         <>
             <nav >
                 <ul className="flex gap-5 mt-4">
