@@ -9,9 +9,9 @@ export default function Tarefas(){
         <>
             <nav >
                 <ul className="flex gap-5 mt-4">
-                    <li className="bg-blue-700 rounded-md text-white ms-2">Todas</li>
-                    <li className="bg-gray-400 rounded-md w-20">Pendentes</li>
-                    <li className="bg-gray-400 rounded-md w-21">Concluídas</li>
+                    <li className="bg-blue-700 rounded-md text-white ms-2 cursor-pointer">Todas</li>
+                    <li className="bg-gray-400 rounded-md w-20 cursor-pointer">Pendentes</li>
+                    <li className="bg-gray-400 rounded-md w-21 cursor-pointer">Concluídas</li>
                     
                 </ul>
             </nav>
