@@ -18,7 +18,7 @@ export default function Tarefas(){
             <p className="text-gray-400 ms-2 mt-4">Nenhuma tarefa por aqui</p>
         </>
         </div>
-         <button className="bg-red-500 rounded-md ms-60 mt-6 cursor-pointer">exluir tarefas</button>
+         <button className="text-red-500 rounded-md ms-60 mt-8 cursor-pointer">exluir tarefas</button>
         </div>
     )
 }

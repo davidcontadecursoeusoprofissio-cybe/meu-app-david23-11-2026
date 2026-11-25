@@ -20,7 +20,7 @@ export default function Adicionar(){
             
         </>
         </div>
-        <button className="bg-red-500 rounded-md ms-60 mt-6 cursor-pointer">exluir tarefas</button>
+        <button className="text-red-500 rounded-md ms-60 mt-6 cursor-pointer">exluir tarefas</button>
         </div>
 
         
