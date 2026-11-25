@@ -1,6 +1,7 @@
 export default function Adicionar(){
     return(
        <div className="bg-gray-200 w-85 h-60  ms-100 mt-20 rounded-md">
+       
             <h1 className="text-[20px] font-bold">📝Minhas Tarefas</h1>
             <p className="ms-2">0 tarefas pendentes</p>
                 <div>
@@ -16,9 +17,12 @@ export default function Adicionar(){
                 </ul>
             </nav>
             <p className="text-gray-400 ms-2 mt-4">Nenhuma tarefa por aqui</p>
+            
         </>
         </div>
+        <button className="bg-red-500 rounded-md ms-60 mt-6 cursor-pointer">exluir tarefas</button>
         </div>
+
         
     )
 }
